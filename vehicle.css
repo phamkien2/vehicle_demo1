@@ -1,0 +1,294 @@
+:root{
+    --font-size:15px,
+}
+
+.section{
+    background-color: #040C24;
+}
+h6 {
+    color: #fff;
+    font-family: "Infiniti Regular", "Infiniti Extended Regular", Verdana, Arial, sans-serif;
+
+}
+a {
+    font-family: "Infiniti Light", "Infiniti Extended Regular", Verdana, Arial, sans-serif;
+    color: #b4b4b4;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.row.mt-3{
+    color: #b4b4b4;
+}
+.btn{
+    padding: 8px 20px;
+    background-color: #A2001D;
+    color:white
+}
+.btn:hover{
+    padding: 8px 20px;
+    background-color: #15080A;
+}
+.btn:hover a{
+    color: #E52525;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    overflow-y:scroll;
+}
+#header{
+    width: 1508px;
+    padding: 0px 30px;
+    height: 134px;
+    background-color:#b4b4b4;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+}
+#logo {
+    width: 482px;
+    line-height: 200px;
+    float:left;
+}
+#menu{
+    list-style: none;
+    
+    line-height:134px;
+   
+}
+#menu li{
+    display: inline-block;
+}
+#vehicles{
+    color:#A2001D;
+    font-weight: bold;
+    padding-right:75px;
+    padding-left:45px;
+}
+#arrow{
+    background-color:#040C24;
+}
+#item{
+    color:#040C24;
+    padding: 0 75px;
+}
+#main {
+    width: 1508px;
+    height: 2425px;
+    padding-top:0;
+}
+#discover{
+    margin-top: 366px;
+    margin-left: 42px;
+    font-size: 38px;
+    color:#040C24;
+
+}
+#content{
+    display:flex;
+}
+.searchcar{
+    padding-top:20px;
+    padding-left:70px;
+    font-weight: bold;
+    text-align: center;
+    font-size:25px;
+}
+#category{
+    padding-left: 72px;
+    padding-top: 10px;
+    line-height: 25px;
+   list-style: none;
+}
+#all{
+    font-weight: bold;
+    color:#040C24;
+}
+#sedans{
+    font-weight: bold;
+    color:#040C24;
+}
+#cross{
+    font-weight: bold;
+    color:#040C24;
+}
+#content{
+    padding-top:30px;
+    width: 1508px;
+    height: 280px;
+   
+}
+.vehicle-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.vehicle-img{
+ padding: 0px 30px;
+}
+.vehicle-item:hover{
+    background-color: #b4b4b4;
+}
+.vehicle-name{
+    padding: 0 50px;
+    font-size: 20px;
+    font-weight:bold;
+}
+#category a:hover{
+    font-weight: bold;
+}
+#cate{
+    color:#040C24;
+}
+#whatpre{
+    padding-top: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #040C24;
+    background-color:#b4b4b4;
+    width: 1508px;
+    height: 918px;
+}
+#pre-Owned{
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size:25px;
+    font-weight: bold;
+}
+#preowned-what{
+    padding-top: 50px;
+    padding-left: 35px;
+    font-size: 45px;
+}
+#preowned-meaning{
+    padding-left: 25px;
+    font-size: 30px;
+    padding-top:35px;
+}
+#preowned-button {
+    padding-left: 50px;
+    padding-top: 40px;
+    width: 452px;
+    height: 10px;
+   
+}
+#preowned-button a:hover{
+    background-color:white;
+    color: #040C24;
+}
+#preowned-button a{
+    display: inline-block;
+    padding: 8px 75px;
+    font-size: 15px;
+    border-color: none;
+    color:white;
+    background-color: #040C24;
+    text-decoration: none;
+}
+#picture{
+    float: right;
+    padding-right:0;
+    width: 906px;
+    height:918px;
+    margin-right: 25px;
+}
+#benefits{
+    padding-top:40px;
+    font-size:25px;
+    font-weight: bold;
+}
+#what-include{
+    padding-top: 10px;
+    font-size: 45px;
+}
+#infiniti-include{
+    font-size: 30px;
+    padding-top:15px;
+}
+#rectangle8{
+    padding-top:30px;
+    width: 1508px;
+    height: 1281px;
+    background-color:#b4b4b4;
+}
+#rectangle6{
+    width: 733px;
+    height: 923px;
+    float: left;
+}
+#certified-pre-owned{
+    padding-top: 10px;
+    font-size: 45px;
+    padding-left: 750px;
+}
+#certified-meaning{
+    font-size: 20px;
+    padding-top:15px;
+    padding-left:760px
+}
+.certified-list {
+   
+    padding-left:820px;
+}
+.certlist{
+    color:#040C24;
+    font-size:15px;
+
+}
+#certified-button button{
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 8px 10px;
+    border-radius: 60px;
+}
+#certified-button a{
+    display: inline-block;
+    padding: 8px 10px;
+    color: #040C24;
+    font-size: 15px;
+    border-radius: 60px;
+    text-align: center;
+    
+}
+#certified-button a:hover{
+    background-color:black ;
+    color: #fff;
+}
+.eng{
+    background-color: #040C24;
+    color:#fff;
+    width:1508px;
+    float:left;
+}
+.footermenu{
+    width:1508px;
+    background-color: #040C24;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px;
+    border-top-color: #fff;
+    padding: 1px 25px;
+}
+.footermenu li a{
+font-size: 14px;
+}
+.infiniti_2024{
+background-color: #040C24;
+width:1508px;
+}
+.infiniti_2024 li{
+    display:inline-block;
+}
+.infiniti_2024 li a{
+    padding: 2px 25px;
+    font-size: 12px;
+}
