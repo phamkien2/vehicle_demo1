@@ -16,7 +16,7 @@ a {
     text-decoration: none;
     font-size: 12px;
 }
-footer a:hover{
+.footer a:hover{
     color: #fff;
     text-decoration: underline;
 }
@@ -60,12 +60,15 @@ html{
 }
 #menu{
     list-style: none;
-    
     line-height:134px;
    
 }
 #menu li{
     display: inline-block;
+}
+.arrow{
+    width: 10px;
+    height: 8px;
 }
 #vehicles{
     color:#A2001D;
@@ -82,7 +85,7 @@ html{
 }
 #main {
     width: 1508px;
-    height: 2425px;
+    height:2425px;
     padding-top:0;
 }
 #discover{
@@ -202,15 +205,18 @@ html{
 }
 #benefits{
     padding-top:40px;
+    padding-left:25px;
     font-size:25px;
     font-weight: bold;
 }
 #what-include{
     padding-top: 10px;
+    padding-left:25px;
     font-size: 45px;
 }
 #infiniti-include{
     font-size: 30px;
+    padding-left:25px;
     padding-top:15px;
 }
 #rectangle8{
@@ -276,14 +282,36 @@ html{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border: 2px;
     border-top-color: #fff;
-    padding: 1px 25px;
+    border-width: 1px ;
+    border-style: solid;
+    padding: 25px;
 }
 .footermenu li a{
 font-size: 14px;
 }
+.eng{
+    border-style: solid;
+    border-width:1px;
+    border-bottom: #fff;
+}
+.owners_information, .resources, .stay{
+    font-weight: bold;
+}
+.customerservice{
+    font-weight: bold;
+}
+.facebook, .youtube, .insta, .tiktok{
+    width:20px;
+    height:20px;
+    background-color:white
+}
 .infiniti_2024{
 background-color: #040C24;
 width:1508px;
+border-width:1px;
+border-top-color: #fff;
+    border-style: solid;
+    
 }
 .infiniti_2024 li{
     display:inline-block;
