@@ -19,6 +19,7 @@ a {
 .footer a:hover{
     color: #fff;
     text-decoration: underline;
+    cursor: pointer;
 }
 .row.mt-3{
     color: #b4b4b4;
@@ -66,6 +67,10 @@ html{
 #menu li{
     display: inline-block;
 }
+#menu li a:hover{
+    color:#A2001D ;
+    font-weight: bold;
+}
 .arrow{
     width: 10px;
     height: 8px;
@@ -94,6 +99,21 @@ html{
     font-size: 38px;
     color:#040C24;
 
+}
+.glass{
+    width: 17px;
+}
+.to_search{
+    float:right;
+    width:250px;
+}
+.to_search a:hover{
+    text-decoration: underline;
+}
+.to_search a{
+    color:#040C24;
+    font-size: 17px;
+    font-weight: bold;
 }
 #content{
     display:flex;
@@ -132,6 +152,7 @@ html{
 .vehicle-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    overflow-y:scroll;
 
 }
 .vehicle-img{
@@ -144,6 +165,9 @@ html{
     padding: 0 50px;
     font-size: 20px;
     font-weight:bold;
+}
+#category{
+    overflow-y: scroll;
 }
 #category a:hover{
     font-weight: bold;
@@ -198,7 +222,6 @@ html{
 }
 #picture{
     float: right;
-    padding-right:0;
     width: 906px;
     height:918px;
     margin-right: 25px;
@@ -220,7 +243,7 @@ html{
     padding-top:15px;
 }
 #rectangle8{
-    padding-top:30px;
+    padding-top:1px;
     width: 1508px;
     height: 1281px;
     background-color:#b4b4b4;
@@ -293,6 +316,12 @@ font-size: 14px;
     border-style: solid;
     border-width:1px;
     border-bottom: #fff;
+
+}
+.eng .french:hover{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .owners_information, .resources, .stay{
     font-weight: bold;
@@ -304,6 +333,9 @@ font-size: 14px;
     width:20px;
     height:20px;
     background-color:white
+}
+.stay ul svg:hover{
+    background-color:antiquewhite;
 }
 .infiniti_2024{
 background-color: #040C24;
@@ -319,4 +351,77 @@ border-top-color: #fff;
 .infiniti_2024 li a{
     padding: 2px 25px;
     font-size: 12px;
+}
+.infiniti_2024 li a:hover{
+    color:#fff;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.body{
+    height:100vh;
+    background: #dadada;
+}
+h1{
+    margin:20px;
+    
+}
+.container{
+    width:500px;
+    height:600px;
+    background: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    padding: 10px 20px;
+    overflow-y:scroll;
+}
+.search{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+  padding: 5px 10px;
+  font-size: 18px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.search input{
+    width: 100%;
+    font-weight:bold;
+    border:none;
+    outline: none;
+
+}
+.search i{
+    color: #333;
+    padding: 5px;
+}
+.product{
+    display:flex;
+    height: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.product img{
+    width: 150px;
+    object-fit:cover;
+    margin-left: 10px;
+}
+.product .infor{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product .car_name{
+    width: 100%;
+    padding-left: 100px;
+    font-size:18px;
+    text-align: center;
+    font-weight:bold;
+}
+.product:hover{
+    background: #dadada;
 }
