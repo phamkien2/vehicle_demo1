@@ -27,14 +27,11 @@ a {
 .btn{
     padding: 8px 20px;
     background-color: #A2001D;
-    color:white
+    color:white;
 }
 .btn:hover{
     padding: 8px 20px;
     background-color: #15080A;
-}
-.btn:hover a{
-    color: #E52525;
 }
 *{
     margin:0;
